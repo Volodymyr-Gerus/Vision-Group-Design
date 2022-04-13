@@ -1,0 +1,80 @@
+// main: ../style.less
+
+.intro {
+    max-height: 100%;
+    overflow: visible;
+    position: relative;
+    
+    @media @mobile {
+        margin-top: 100px;
+    }
+}
+
+.intro__inner {
+    display: flex;
+    padding-top: 0px;
+    padding-bottom: 20px;
+    position: relative;
+
+    background: url("../images/symbols.png") right bottom no-repeat;
+    border-bottom: 1px solid fade(@gray, 30%);
+    
+    @media @tablet {
+        padding-top: 0;
+        padding-bottom: 10px;
+        
+        background-size: 400px auto;
+    }
+}
+
+.intro__content {
+    width: 50%;
+    
+     @media @mobile-sm {
+        width: 100%; 
+    }
+}
+
+.intro__subtitle {
+    font-size: 2.13rem;
+    color: @black;
+    font-weight: 200;
+    
+    @media @tablet {
+        font-size: 1.5rem;
+    }
+}
+
+.intro__title {
+    margin-bottom: 15px;
+
+    font-size: 1rem;
+    color: @black;
+    font-weight: 700;
+    
+     @media @tablet {
+        font-size: 10px;
+    }
+}
+
+.intro__text {
+    margin-bottom: 15px;
+
+    font-size: 1.2rem;
+    color: fade(@black, 70%);
+}
+
+.intro__photo {
+    position: absolute;
+    bottom: -1px;
+    right: 0;
+    z-index: 2;
+    
+    @media @tablet {
+        width: 350px; 
+    }
+    
+    @media @mobile-sm {
+        display: none; 
+    }
+}

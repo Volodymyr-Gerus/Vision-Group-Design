@@ -108,6 +108,9 @@ var arrLang = {
         "Other": "Other",
         "House": "House",
         "Shop": "Shop",
+        "Show More": "Show More",
+        "chair c1": "We have designed a beautiful and comfortable armchair for your comfort.",
+        "Chair C1": "Chair C1",
     },
     "ua": {
         "services": "Сервіси",
@@ -216,6 +219,9 @@ var arrLang = {
         "Other": "Інше",
         "House": "Будинок",
         "Shop": "Магазин",
+        "Show More": "Показати більше",
+        "chair c1": "Ми розробили красиве і комфортне крісло для вашого комфорту.",
+        "Chair C1": "Крісло С1",
     },
 };
 

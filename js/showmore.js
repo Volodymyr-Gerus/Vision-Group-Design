@@ -1,4 +1,4 @@
-let numberOfItems=6;
+let numberOfItems=3;
 
 $('.col-md-4:lt('+numberOfItems+')').show();
 

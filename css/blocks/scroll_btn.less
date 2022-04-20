@@ -16,14 +16,9 @@
     visibility: hidden;
     z-index: 1000;
   }
-  #scroll_button::after {
+  #scroll_button::after .scroll {
     content: "\2B9D";
-    font-family: 'Gruppo', 'Poiret One', cursive;
-    font-weight: normal;
-    font-style: normal;
-    font-size: 2em;
-    line-height: 55px;
-    color: #fff;
+    
   }
   #scroll_button:hover {
     cursor: pointer;
@@ -35,4 +30,7 @@
   #scroll_button.show {
     opacity: 1;
     visibility: visible;
+  }
+  .scroll {
+    padding-top: 6px;
   }
